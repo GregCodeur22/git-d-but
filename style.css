@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(img/yann-allegre-PYpSWp-enqc-unsplash.jpg) center/cover
+    no-repeat;
+  width: 100%;
+  height: auto;
+}
+p::selection {
+  background: gray;
+}
+#head {
+  overflow: hidden;
+  background-color: #989ba06b;
+  padding: 10px 10px 0px 30px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  backdrop-filter: blur(6px);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  float: right;
+  padding: 0 10px 0px 30px;
+  list-style: none;
+}
+#logo {
+  float: left;
+}
+li:hover {
+  text-decoration: underline;
+  color: #f7a36d;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  color: white;
+  transition: 0.7s ease-in;
+  position: relative;
+  top: 70px;
+  font-family: "dancing script";
+}
+h1:hover {
+  letter-spacing: 2px;
+}
+#trait {
+  height: 1px;
+  width: 70%;
+  background: rgba(255, 255, 255, 0.63);
+  margin: 60px auto;
+  position: relative;
+  top: 10px;
+  box-shadow: 1px 1px 20px 6px black;
+}
+.firstSection {
+  width: 30%;
+  padding: 20px 40px;
+  background: rgba(128, 128, 128, 0.13);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  color: white;
+  box-shadow: 1px 1px 20px 6px black;
+  transition: 0.8s;
+}
+.imgoiseau {
+  background: white;
+  width: 55%;
+  background: url(img/oiseaublanc.webp) no-repeat;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 6px black;
+}
+#section1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#hibou {
+  background: url(img/hibou.jpg) center/cover;
+  width: 60%;
+  height: 30em;
+  margin: 5% 0;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px 6px black;
+}
+#secondsection {
+  width: 20%;
+  background: rgba(128, 128, 128, 0.13);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  color: white;
+  box-shadow: 1px 1px 20px 6px black;
+  margin: 5% 2%;
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+#secondsection:hover,
+.firstSection:hover {
+  transform: scale(1.02);
+}
+footer {
+  text-align: center;
+  margin: 20px;
+  background: rgba(128, 128, 128, 0.13);
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  color: white;
+  box-shadow: 1px 1px 20px 6px black;
+  height: 400px;
+}
+form div {
+  margin: 10px auto;
+}
+#nom {
+  margin-top: 90px;
+}
+input {
+  padding: 10px;
+  border-radius: 0px;
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: 1.5s;
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(26, 20, 20);
+  width: 40%;
+  max-width: 300px;
+  min-width: 250px;
+  box-shadow: 4px 5px 20px 7px black;
+  margin-bottom: 40px;
+}
+input:focus {
+  background: transparent;
+  border: 1px solid gray;
+  color: rgb(192, 189, 185);
+  border-radius: 30px;
+}
+button {
+  cursor: pointer;
+  background: #959da0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: block;
+  transition: 0.9s;
+  margin-bottom: 20px;
+}
+button:hover {
+  letter-spacing: 3px;
+}
+button:active {
+  transform: scale(1.2);
+}
+label {
+  font-size: 1.1em;
+  margin: 0 39px;
+  user-select: none;
+}
